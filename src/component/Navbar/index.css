@@ -1,0 +1,33 @@
+/* nav {
+    position: fixed;
+} */
+
+.first {
+    list-style-type: none;
+    color: #FFF;
+    display: flex;
+    column-gap: 200px;
+}
+
+.first,li {
+    padding: 0;
+    margin: 0; 
+}
+
+.three {
+    list-style-type: none;
+    color: #FFF;
+    display: flex;
+    column-gap: 60px;
+}
+
+.three,li {
+    padding: 0;
+    margin: 0; 
+}
+
+.nav {
+    position: fixed;
+    margin-top: 16px;
+}
+
