@@ -1,6 +1,14 @@
 import React from 'react'
+import Card from '../../Card'
 import Navbar from '../../Navbar'
 import './index.css'
+
+// CardImage
+
+import ImageOne from '../../../assets/selected-projects/imageone.png'
+import ImageTwo from '../../../assets/selected-projects/imagetwo.png'
+import ImageThree from '../../../assets/selected-projects/imagethree.png'
+import ImageFour from '../../../assets/selected-projects/imagefour.png'
 
 function Home() {
   return (
@@ -49,7 +57,21 @@ function Home() {
           <div className="col"><div className="right-tagline">View All Works</div></div>
           </div>
         </div>
-        
+        <hr style={{marginTop: "70px;", marginBottom: "25px;"}} />
+        <div className="row third">
+          <div className="col">
+            <Card imageCard={ImageOne} titleCard="Noir Gear" descCard="Photography, Branding, Tech" />
+          </div>
+          <div className="col">
+            <Card imageCard={ImageTwo} titleCard="Oldham Gentleman" descCard="Photography, Branding, Tech" />
+          </div>
+          <div className="col">
+            <Card imageCard={ImageThree} titleCard="MCE Watches" descCard="Jewerly, Photography, Ads" />
+          </div>
+          <div className="col">
+            <Card imageCard={ImageFour} titleCard="Schouten" descCard="Flatlays, Cloth, Collaboration" />
+          </div>
+        </div>
       </div>
       </div>
     </section>

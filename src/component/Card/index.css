@@ -1,0 +1,30 @@
+.imagecard {
+    width: 632px;
+    height: 500px;
+}
+
+
+.cardSection {
+    /* border: 1px solid red; */
+    margin-bottom: 100px;
+}
+
+.title {
+    /* width: 112px; */
+    height: 27px;
+    font-family: 'Switzer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 104%;
+    margin-top: 10px;
+}
+
+.description {
+    font-family: 'Switzer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 104%;
+    color: #969696;;
+}

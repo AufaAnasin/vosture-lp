@@ -74,6 +74,10 @@
     line-height: 105%;
 }
 
+/* end of second section */
+
+/* start of third section */
+
 .selected-projects-tagline {
     position: absolute;
     width: 416px;
@@ -93,4 +97,8 @@
 
 .third-content {
     margin-top: 100px;
+}
+
+.row.third {
+    display: flex;
 }
